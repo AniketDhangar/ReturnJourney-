@@ -1,0 +1,28 @@
+#root {
+  max-width: 1366px;
+  margin: auto auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 150px;
+}
+
+.item img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
